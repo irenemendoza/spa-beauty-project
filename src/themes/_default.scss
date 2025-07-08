@@ -1,5 +1,7 @@
+@use '../abstracts/variables' as v;
+
 html * {
-    font-family: $roboto-font;
+    font-family: v.$roboto-font;
 }
  
 body {
