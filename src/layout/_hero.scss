@@ -10,17 +10,19 @@
         width: 50%;
 
         &-principal {
-            margin-bottom: 90px;
+            margin-bottom: 65px;
             h1 {
                 color: v.$dark-blue;
+                line-height: 60px;
                 font-size: v.$title-size;
-                padding: 30px 0;
+                margin-bottom: 25px;
             }
 
             p {
                 color: v.$dark-gray;
                 font-size: v.$subtitle-size;
                 margin-bottom: 50px;
+                width: 95%;
             }
 
             .links ul {
@@ -55,8 +57,8 @@
         .total {
             width: fit-content;
             display: flex;
-            padding: 32px;
-            gap: 70px;
+            padding: 20px;
+            gap: 45px;
             align-items: center;
             background-color: v.$white;
             border-radius: 2%;
@@ -67,15 +69,15 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                gap: 20px;
+                gap: 15px;
                 
                 
                 picture {
-                    padding: 5px;
+                    
                     background-color: v.$cyan;
                     border-radius: 50%;
-                    width: 60px;
-                    height: 60px;
+                    width: 55px;
+                    height: 55px;
                     text-align: center;
                     display: flex;
                     justify-content: center;
@@ -86,7 +88,7 @@
                 }
                 span {
                     color: v.$dark-blue;
-                    font-size: v.$subtitle-size;
+                    font-size: 23px;
                     font-weight: 500;
                 }
                 p {
@@ -104,15 +106,16 @@
             position: relative;
         .image-1 {
             opacity: 0.04;
-            width: 300px;
+            width: 315px;
             position: absolute;
-            top: -4%;
+            top: -10%;
             right: 6%;
         }
         .image-2 {
-            width: 100%;
+            width: 105%;
             position: absolute;
             right: 8%;
+            bottom: -13%;
         }
         div {
             width: 290px;
@@ -143,8 +146,8 @@
 
         .cta-2 {
             position: absolute;
-            top: 62%;
-            right: -1%;
+            top: 72%;
+            right: 0%;
         }
     }
 }
