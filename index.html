@@ -4,12 +4,125 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Base Vite Project Sass</title>
+  <title>Header design example for a Spa and Beauty business</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-  <h1>
-    Esto es una prueba!</h1>
+  <header class="main-header">
+    <div class="container">
+      <div class="logo">
+        <a href="#">
+          <img src="img/GlowQueen-logo.svg" alt="GlowQueen logo">
+        </a>
+      </div>
+
+      <div class="main-header-menus">
+        <nav class="main-header-menus-principal-nav">
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#">Facilities</a>
+            </li>
+            <li>
+              <a href="#">More <span><img src="img/more-icon.svg" alt="Icono"></span> </a>
+            </li>
+          </ul>
+        </nav>
+        <aside class="main-header-menus-secondary-nav">
+          <ul>
+            <li>
+              <a href="#">
+                <img src="img/search-icon.svg" alt="searching" class="nav-icon">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="img/cart-icon.svg" alt="cart" class="nav-icon">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="link">Sign In</a>
+              <a href="#" class="primary-button">Sign Up</a>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="container">
+      <section class="hero-content">
+        <div class="hero-content-principal">
+          <h1>Bring back the beauty and glow of your skin</h1>
+          <p>We provide you various treatments from head to toe using the best product, advanced technology, and
+            affordable price</p>
+          <div class="links">
+            <ul>
+              <li>
+                <a href="#" class="primary-button">Book Now</a>
+              </li>
+              <li>
+                <a href="#" class="secondary-button"><span><img src="img/play-icon.svg" alt=""></span><span>Watch
+                    video</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <section class="total">
+          <div class="item-1">
+            <picture>
+              <img src="img/face-massage-icon.svg" alt="face treatment icon">
+            </picture>
+            <span>15 +</span>
+            <p>Special Treatment</p>
+          </div>
+          <div class="item-2">
+            <picture>
+              <img src="img/lotus-icon.svg" alt="face treatment icon">
+            </picture>
+            <span>25 +</span>
+            <p>Professional Therapist</p>
+          </div>
+          <div class="item-3">
+            <picture>
+              <img src="img/formula-icon.svg" alt="face treatment icon">
+            </picture>
+            <span>100%</span>
+            <p>Herbal Cream Formula</p>
+          </div>
+        </section>
+      </section>
+      <div class="hero-image">
+        <img src="img/lotus-flower-icon.svg" alt="" class="image-1">
+        <img src="img/woman.png" alt="" class="image-2">
+        <div class="cta-1">
+          <img src="img/“.svg" alt="">
+          <p>I have a regular schedule to take treatment from GlowQueen, they gave me the best service and treatment
+            ever to maintain the beauty and health of my skin</p>
+          <span>Sophia Princeton</span>
+        </div>
+        <div class="cta-2">
+          <img src="img/“.svg" alt="">
+          <p>For the past few years, I've had a hard time finding the right place for skin care to deal with my
+            complicated skin condition, thank God I found GlowQueen to treat my skin</p>
+          <span>Tamara Jules</span>
+        </div>
+      </div>
+    </div>
+  </section>
   <script type="module" src="/main.js"></script>
 </body>
 

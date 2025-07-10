@@ -1,0 +1,9 @@
+@use '../abstracts/variables' as v;
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, transparent 80%, v.$white 80%), linear-gradient(to right, v.$gray 70%, v.$cyan 70%);
+    background-repeat: no-repeat;
+    background-size: contain, contain;
+    background-position: top left, top left;
+}
