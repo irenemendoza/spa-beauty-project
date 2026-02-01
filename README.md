@@ -22,3 +22,10 @@ npm run dev
 
 - The project is not responsive. It focuses on static layout structure.
 - Deployed to GitHub Pages via `npm run deploy`.
+
+
+# Base Vite Project - Sass
+
+🔗 [Live Demo] https://irenemendoza.github.io/spa-beauty-project/
+
+A practice project for layout structure using HTML, SCSS, and Vite.
